@@ -12,18 +12,9 @@ import Footer from "./components/footer";
 export default function App() {
   return (
     <Container>
-      {/* <Header /> */}
+      <Header />
       <ImageList>
-        <ImageListItem key="Subheader" cols={2}>
-          <ListSubheader component="div" style={{ textAlign: "center" }}>
-            {" "}
-            <img
-              src="https://i.ibb.co/pxbPV05/logo-web.jpg"
-              alt="logo-web"
-              border="0"
-            />
-          </ListSubheader>
-        </ImageListItem>
+        <ImageListItem key="Subheader" cols={2}></ImageListItem>
         {itemData.map((item) => (
           <ImageListItem key={item.img}>
             <img

@@ -11,7 +11,7 @@ import MoreIcon from "@mui/icons-material/MoreVert";
 
 const StyledToolbar = styled(Toolbar)(({ theme }) => ({
   alignItems: "flex-start",
-  backgroundColor: "slategray",
+  backgroundColor: "#dac542 ",
   paddingTop: theme.spacing(1),
   paddingBottom: theme.spacing(2),
   // Override media queries injected by theme.mixins.toolbar
@@ -26,7 +26,7 @@ export default function Footer() {
     <Box sx={{ flexGrow: 1 }}>
       <AppBar position="static">
         <StyledToolbar>
-          <IconButton
+          {/* <IconButton
             size="large"
             edge="start"
             color="inherit"
@@ -34,16 +34,31 @@ export default function Footer() {
             sx={{ mr: 2 }}
           >
             <MenuIcon />
-          </IconButton>
+          </IconButton> */}
+          <Typography noWrap component="div" sx={{ flexGrow: 1 }}>
+            <img
+              src="https://i.ibb.co/8bKyGGF/logo-web-transparent-copie.png"
+              // src="https://i.ibb.co/C01n794/logo-web-80.jpg"
+              alt="logo-web"
+              border="0"
+              maxWidth="150px"
+            />
+          </Typography>
           <Typography
             noWrap
             component="div"
             sx={{ flexGrow: 1, alignSelf: "flex-end" }}
           >
-            L’association «Dobro Enfance» 3 esp Jouandin 64100 Bayonne
-            dobro.enfance@gmail.com @2022 LDev.All rights reserved
+            <a href="mailto:dobro.enfance@gmail.com">dobro.enfance@gmail.com</a>
           </Typography>
-          <IconButton size="large" aria-label="search" color="inherit">
+          <Typography
+            noWrap
+            component="div"
+            sx={{ flexGrow: 1, alignSelf: "flex-end" }}
+          >
+            @2022 L.dev All rights reserved
+          </Typography>
+          {/* <IconButton size="large" aria-label="search" color="inherit">
             <SearchIcon />
           </IconButton>
           <IconButton
@@ -53,7 +68,7 @@ export default function Footer() {
             color="inherit"
           >
             <MoreIcon />
-          </IconButton>
+          </IconButton> */}
         </StyledToolbar>
       </AppBar>
     </Box>
