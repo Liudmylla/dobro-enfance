@@ -44,7 +44,6 @@ const Header = () => {
             src="https://i.ibb.co/8bKyGGF/logo-web-transparent-copie.png"
             alt="logo-web"
             border="0"
-            maxWidth="150px"
           />
         </Typography>
 
@@ -95,7 +94,6 @@ const Header = () => {
             src="https://i.ibb.co/8bKyGGF/logo-web-transparent-copie.png"
             alt="logo-web"
             border="0"
-            maxWidth="150px"
           />
         </Typography>
         <Box sx={{ flexGrow: 1, display: { xs: "none", md: "flex" } }}>
