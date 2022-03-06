@@ -14,7 +14,7 @@ export default function App() {
     <Container>
       <Header />
       <ImageList>
-        <ImageListItem key="Subheader" cols={2}></ImageListItem>
+        {/* <ImageListItem key="Subheader" cols={2}></ImageListItem> */}
         {itemData.map((item) => (
           <ImageListItem key={item.img}>
             <img

@@ -37,7 +37,11 @@ const Header = () => {
           variant="h6"
           noWrap
           component="div"
-          sx={{ mr: 2, display: { xs: "none", md: "flex" } }}
+          sx={{
+            // ml: 2, mr: 4,
+            m: 1,
+            display: { xs: "none", md: "flex" },
+          }}
         >
           <img
             // src="https://i.ibb.co/C01n794/logo-web-80.jpg"
@@ -101,7 +105,12 @@ const Header = () => {
             <Button
               key={page}
               onClick={handleCloseNavMenu}
-              sx={{ my: 2, color: "white", display: "block" }}
+              sx={{
+                my: 2,
+                color: "#44a0b0", // vert d'eau
+                display: "block",
+                fontWeight: "bold",
+              }}
             >
               {page}
             </Button>

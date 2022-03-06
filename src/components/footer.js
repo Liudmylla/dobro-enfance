@@ -10,7 +10,7 @@ import SearchIcon from "@mui/icons-material/Search";
 import MoreIcon from "@mui/icons-material/MoreVert";
 
 const StyledToolbar = styled(Toolbar)(({ theme }) => ({
-  alignItems: "flex-start",
+  alignItems: "flex-center",
   backgroundColor: "#DCDCDC",
   paddingTop: theme.spacing(1),
   paddingBottom: theme.spacing(2),
@@ -39,27 +39,32 @@ export default function Footer() {
           <Typography
             noWrap
             component="div"
-            sx={{ flexGrow: 1, alignSelf: "flex-end" }}
+            sx={{ flexGrow: 1, alignSelf: "flex-center" }}
           >
-            Contact :{" "}
             <a href="mailto:dobro.enfance@gmail.com">
               {" "}
               dobro.enfance@gmail.com
             </a>
           </Typography>
-          {/* <img
-            src="https://i.ibb.co/8bKyGGF/logo-web-transparent-copie.png"
-            // src="https://i.ibb.co/C01n794/logo-web-80.jpg"
-            alt="logo-web"
-            border="0"
-            maxWidth="150px"
-          /> */}
           <Typography
             noWrap
             component="div"
-            sx={{ flexGrow: 1, alignSelf: "flex-end" }}
+            sx={{ flexGrow: 1, alignSelf: "flex-center" }}
           >
-            @2022 L.dev All rights reserved
+            <img
+              src="https://i.ibb.co/8bKyGGF/logo-web-transparent-copie.png"
+              // src="https://i.ibb.co/C01n794/logo-web-80.jpg"
+              alt="logo-web"
+              border="0"
+              maxWidth="150px"
+            />
+          </Typography>
+          <Typography
+            noWrap
+            component="div"
+            sx={{ flexGrow: 1, alignSelf: "flex-center" }}
+          >
+            @2022 LDev
           </Typography>
           {/* <IconButton size="large" aria-label="search" color="inherit">
             <SearchIcon />
