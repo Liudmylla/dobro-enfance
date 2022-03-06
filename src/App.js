@@ -54,20 +54,19 @@ export default function App() {
 
 const itemData = [
   {
-    img: "https://i.ibb.co/RTwf9vv/remerciement.jpg",
-    title: "Un camion 20m3 préparé par les volontaires ",
-    author: " et payé par la mairie de Bayonne est parti vendredi 04.03.22",
+    img: "https://i.ibb.co/qMhN3qc/Whats-App-Image-2022-03-03-at-09-46-04-1.jpg",
+    title: "Confit de canard",
+    author: "Тушенка",
   },
-  {
-    img: "https://i.ibb.co/sgCYFmR/Whats-App-Image-2022-03-04-at-17-38-48.jpg",
-    title: "Les bénévoles",
-    author: "Волонтеры",
-  },
-
   {
     img: "https://i.ibb.co/LS1QM1y/Whats-App-Image-2022-03-04-at-18-06-48.jpg",
     title: "Le camion est partis pour la frontière polonaise",
     author: "Грузовик выехал к польской границе",
+  },
+  {
+    img: "https://i.ibb.co/RTwf9vv/remerciement.jpg",
+    title: "Un camion 20m3 préparé par les volontaires ",
+    author: " et payé par la mairie de Bayonne est parti vendredi 04.03.22",
   },
   {
     img: "https://i.ibb.co/dfwcgP5/c4705daf-c02d-41bc-88bb-59bfe1f7b26c.jpg",
@@ -87,10 +86,11 @@ const itemData = [
     title: "La mobilisation de gens était sans précédent",
     author: "Реакция людей была беспрецедентной",
   },
+
   {
-    img: "https://i.ibb.co/qMhN3qc/Whats-App-Image-2022-03-03-at-09-46-04-1.jpg",
-    title: "Confit de canard",
-    author: "Тушенка",
+    img: "https://i.ibb.co/sgCYFmR/Whats-App-Image-2022-03-04-at-17-38-48.jpg",
+    title: "Les bénévoles",
+    author: "Волонтеры",
   },
 
   // {
