@@ -28,7 +28,9 @@ const Header = () => {
   return (
     <AppBar
       position="static"
-      style={{ backgroundColor: "#92cbdf", maxHeight: "5rem" }}
+      style={{ backgroundColor: "#DCDCDC" }}
+      // style={{ backgroundColor: "#dac542", maxHeight: "5rem" }} yellow
+      // style={{ backgroundColor: "#92cbdf", maxHeight: "5rem" }} blue
     >
       <Toolbar disableGutters>
         <Typography
@@ -38,8 +40,8 @@ const Header = () => {
           sx={{ mr: 2, display: { xs: "none", md: "flex" } }}
         >
           <img
-            src="https://i.ibb.co/C01n794/logo-web-80.jpg"
-            // src="https://i.ibb.co/8bKyGGF/logo-web-transparent-copie.png"
+            // src="https://i.ibb.co/C01n794/logo-web-80.jpg"
+            src="https://i.ibb.co/8bKyGGF/logo-web-transparent-copie.png"
             alt="logo-web"
             border="0"
             maxWidth="150px"

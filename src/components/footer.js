@@ -11,7 +11,7 @@ import MoreIcon from "@mui/icons-material/MoreVert";
 
 const StyledToolbar = styled(Toolbar)(({ theme }) => ({
   alignItems: "flex-start",
-  backgroundColor: "#dac542 ",
+  backgroundColor: "#DCDCDC",
   paddingTop: theme.spacing(1),
   paddingBottom: theme.spacing(2),
   // Override media queries injected by theme.mixins.toolbar
@@ -35,22 +35,25 @@ export default function Footer() {
           >
             <MenuIcon />
           </IconButton> */}
-          <Typography noWrap component="div" sx={{ flexGrow: 1 }}>
-            <img
-              src="https://i.ibb.co/8bKyGGF/logo-web-transparent-copie.png"
-              // src="https://i.ibb.co/C01n794/logo-web-80.jpg"
-              alt="logo-web"
-              border="0"
-              maxWidth="150px"
-            />
-          </Typography>
+
           <Typography
             noWrap
             component="div"
             sx={{ flexGrow: 1, alignSelf: "flex-end" }}
           >
-            <a href="mailto:dobro.enfance@gmail.com">dobro.enfance@gmail.com</a>
+            Contact :{" "}
+            <a href="mailto:dobro.enfance@gmail.com">
+              {" "}
+              dobro.enfance@gmail.com
+            </a>
           </Typography>
+          {/* <img
+            src="https://i.ibb.co/8bKyGGF/logo-web-transparent-copie.png"
+            // src="https://i.ibb.co/C01n794/logo-web-80.jpg"
+            alt="logo-web"
+            border="0"
+            maxWidth="150px"
+          /> */}
           <Typography
             noWrap
             component="div"
