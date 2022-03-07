@@ -58,7 +58,7 @@ export default function Footer() {
               border="0"
               maxWidth="150px"
             />
-    
+       </Typography>
            <Typography
             noWrap
             component="div"
