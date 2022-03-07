@@ -59,12 +59,22 @@ export default function Footer() {
               maxWidth="150px"
             />
           </Typography>
-          <Typography
+//           <Typography
+//             noWrap
+//             component="div"
+//             sx={{ flexGrow: 1, alignSelf: "flex-center" }}
+//           >
+//             @2022 LDev
+//           </Typography>
+           <Typography
             noWrap
             component="div"
             sx={{ flexGrow: 1, alignSelf: "flex-center" }}
           >
-            @2022 LDev
+            <a href="https://drive.google.com/drive/my-drive?hl=fr" a target=”_blank”>
+              {" "}
+              Faire votre don
+            </a>
           </Typography>
           {/* <IconButton size="large" aria-label="search" color="inherit">
             <SearchIcon />
