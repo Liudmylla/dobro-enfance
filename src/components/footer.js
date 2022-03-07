@@ -35,17 +35,18 @@ export default function Footer() {
           >
             <MenuIcon />
           </IconButton> */}
-
-          <Typography
+    
+           <Typography
             noWrap
             component="div"
             sx={{ flexGrow: 1, alignSelf: "flex-center" }}
           >
-            <a href="mailto:dobro.enfance@gmail.com">
+            <a href="https://drive.google.com/file/d/1UBedpA7SVS0n0D36MB_FAEs8uosKZt74/view" target="_blank">
               {" "}
-              dobro.enfance@gmail.com
+              Faire un don
             </a>
           </Typography>
+        
           <Typography
             noWrap
             component="div"
@@ -58,15 +59,15 @@ export default function Footer() {
               border="0"
               maxWidth="150px"
             />
-       </Typography>
-           <Typography
+                  </Typography>
+   <Typography
             noWrap
             component="div"
             sx={{ flexGrow: 1, alignSelf: "flex-center" }}
           >
-            <a href="https://drive.google.com/file/d/1UBedpA7SVS0n0D36MB_FAEs8uosKZt74/view" target="_blank">
+            <a href="mailto:dobro.enfance@gmail.com">
               {" "}
-              Faire votre don
+              dobro.enfance@gmail.com
             </a>
           </Typography>
           {/* <IconButton size="large" aria-label="search" color="inherit">
