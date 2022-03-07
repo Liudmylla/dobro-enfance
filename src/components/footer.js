@@ -41,9 +41,9 @@ export default function Footer() {
             component="div"
             sx={{ flexGrow: 1, alignSelf: "flex-center" }}
           >
-            <a href="https://drive.google.com/file/d/1UBedpA7SVS0n0D36MB_FAEs8uosKZt74/view" target="_blank">
+            <a href="https://drive.google.com/file/d/1ZkUWOHTbVtwEU4nh_YwMq0h3JXo3nztb/view?usp=sharing" target="_blank">
               {" "}
-              Faire un don
+              Un don
             </a>
           </Typography>
         
