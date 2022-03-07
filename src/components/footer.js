@@ -43,7 +43,7 @@ export default function Footer() {
           >
             <a href="https://drive.google.com/file/d/1ZkUWOHTbVtwEU4nh_YwMq0h3JXo3nztb/view?usp=sharing" target="_blank">
               {" "}
-              Un don
+              Faire un don à l'association
             </a>
           </Typography>
         
