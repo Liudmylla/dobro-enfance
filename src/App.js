@@ -30,7 +30,6 @@ export default function App() {
               title={item.title}
               subtitle={item.author}
               actionIcon={
-               onclick={renderRib}
                 <IconButton
                   sx={{ color: "rgba(255, 255, 255, 0.54)" }}
                   aria-label={`info about ${item.title}`}
