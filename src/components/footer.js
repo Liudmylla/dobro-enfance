@@ -64,7 +64,7 @@ export default function Footer() {
             component="div"
             sx={{ flexGrow: 1, alignSelf: "flex-center" }}
           >
-            <a href="https://docs.google.com/document/d/1Ng80PRQvPrglwhCQDh_HFbDbzBNCB8g-eubIXSgDJGA/edit" target="_blank">
+            <a href="https://drive.google.com/file/d/1UBedpA7SVS0n0D36MB_FAEs8uosKZt74/view" target="_blank">
               {" "}
               Faire votre don
             </a>
