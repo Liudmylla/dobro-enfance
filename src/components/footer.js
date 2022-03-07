@@ -58,14 +58,7 @@ export default function Footer() {
               border="0"
               maxWidth="150px"
             />
-          </Typography>
-//           <Typography
-//             noWrap
-//             component="div"
-//             sx={{ flexGrow: 1, alignSelf: "flex-center" }}
-//           >
-//             @2022 LDev
-//           </Typography>
+    
            <Typography
             noWrap
             component="div"
