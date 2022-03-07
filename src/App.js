@@ -10,6 +10,9 @@ import Header from "./components/header";
 import Footer from "./components/footer";
 
 export default function App() {
+  const renderRib = () =>{
+  return <a href="https://drive.google.com/drive/my-drive?hl=fr" target="_blank"/>
+  }
   return (
     <Container>
       <Header />
@@ -30,6 +33,7 @@ export default function App() {
                 <IconButton
                   sx={{ color: "rgba(255, 255, 255, 0.54)" }}
                   aria-label={`info about ${item.title}`}
+                  onclick={renderRib}
                 >
                   <InfoIcon />
                 </IconButton>
